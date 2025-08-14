@@ -1,0 +1,7 @@
+%sql
+CREATE SCHEMA transportation_dept.bronze;
+CREATE SCHEMA transportation_dept.silver;
+CREATE SCHEMA transportation_dept.gold;
+
+%python
+display(dbutils.fs.ls('/Volumes/transportation_dept/bronze/volume/'))

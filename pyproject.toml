@@ -4,4 +4,4 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ['databricks-connect', 'pyspark>=4.0.0']
+dependencies = ['databricks-connect==16.4.3','notebook','pip','openpyxl']
