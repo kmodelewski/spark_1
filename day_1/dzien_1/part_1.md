@@ -22,6 +22,14 @@ Durability (commitet changes are permanent). Thanks to: write serializable isola
 
 3. Wsparcie narzędzi BI
 4. Otwarty format danych (parquet, delta)
+
+Format Delta Lake składa się trzech części:
+- _transaction_log
+- pliki z danymi w formacie Parquet
+- Checkpoints (co jakiś czas delta tworzy pliki binarne z _transaction_log)
+ 
+ 
+https://www.datacamp.com/tutorial/delta-lake
    - Parquet to kolumnowy format plików
    - Delta Lake to framework oparty oparty o pliki parquet i log transakcyjny w formacie JSON
    - [Delta lake ] (https://www.databricks.com/wp-content/uploads/2020/08/p975-armbrust.pdf)
